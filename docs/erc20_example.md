@@ -16,7 +16,7 @@ Alternately, you can keep a note of
 ...and follow along the code examples as [standalone scripts](https://github.com/blockvigil/maticvigil-api-usage-examples/tree/master/erc20/standalone_scripts)
 
 ## Prerequisites
-It is absolutely critical that you would have gone through at least one of our onboarding guides that will teach you the way MaticVigil handles user accounts, signing up, logging in, deploying contracts etc.
+It is absolutely critical that you have gone through at least one of our onboarding guides that will teach you the way MaticVigil handles user accounts, signing up, logging in, deploying contracts etc.
 
 If you haven't, go check them out.
 * [Getting started with the CLI tool](cli_gettingstarted.md)
@@ -442,7 +442,7 @@ if __name__ == '__main__':
 **Equivalent ERC20 CLI tool command**
 ```bash
 python cli.py balanceof 0x69609c1dB6D1174a3eeC836f4CE514759c512c31
-{"success": true, "data": [{"uint256": 30000}]}
+{"success": true, "data": [{"uint256": 10000}]}
 ```
 
 ### Approve
